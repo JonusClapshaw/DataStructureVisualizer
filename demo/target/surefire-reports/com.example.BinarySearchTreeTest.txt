@@ -1,0 +1,80 @@
+-------------------------------------------------------------------------------
+Test set: com.example.BinarySearchTreeTest
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 17, Errors: 2, Skipped: 0, Time elapsed: 0.021 s <<< FAILURE! - in com.example.BinarySearchTreeTest
+wave4_countNodes_afterDeleteReducesCount(com.example.BinarySearchTreeTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<0>
+	at com.example.BinarySearchTreeTest.wave4_countNodes_afterDeleteReducesCount(BinarySearchTreeTest.java:296)
+
+wave3_postorder_childrenBeforeParent(com.example.BinarySearchTreeTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[1, 3, 2, 6, 4]> but was:<[]>
+	at com.example.BinarySearchTreeTest.wave3_postorder_childrenBeforeParent(BinarySearchTreeTest.java:208)
+
+wave4_isBalanced_balancedTree_returnsTrue(com.example.BinarySearchTreeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.BinarySearchTreeTest.wave4_isBalanced_balancedTree_returnsTrue(BinarySearchTreeTest.java:309)
+
+wave4_countNodes_afterInserts_returnsCorrectCount(com.example.BinarySearchTreeTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<4> but was:<0>
+	at com.example.BinarySearchTreeTest.wave4_countNodes_afterInserts_returnsCorrectCount(BinarySearchTreeTest.java:287)
+
+wave4_delete_nodeWithOneChild(com.example.BinarySearchTreeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.BinarySearchTreeTest.wave4_delete_nodeWithOneChild(BinarySearchTreeTest.java:243)
+
+wave1_contains_insertedValue_returnsTrue(com.example.BinarySearchTreeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.BinarySearchTreeTest.wave1_contains_insertedValue_returnsTrue(BinarySearchTreeTest.java:69)
+
+wave2_findMax_singleNode_returnsRoot(com.example.BinarySearchTreeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<7> but was:<-1>
+	at com.example.BinarySearchTreeTest.wave2_findMax_singleNode_returnsRoot(BinarySearchTreeTest.java:122)
+
+wave4_delete_missingValue_treeUnchanged(com.example.BinarySearchTreeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.BinarySearchTreeTest.wave4_delete_missingValue_treeUnchanged(BinarySearchTreeTest.java:272)
+
+wave4_delete_leafNode_removedFromTree(com.example.BinarySearchTreeTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.BinarySearchTreeTest.wave4_delete_leafNode_removedFromTree(BinarySearchTreeTest.java:227)
+
+wave1_insert_smallerValueGoesLeft(com.example.BinarySearchTreeTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot read field "data" because "com.example.BinarySearchTree.getRoot().left" is null
+	at com.example.BinarySearchTreeTest.wave1_insert_smallerValueGoesLeft(BinarySearchTreeTest.java:45)
+
+wave2_findMin_singleNode_returnsRoot(com.example.BinarySearchTreeTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<42> but was:<-1>
+	at com.example.BinarySearchTreeTest.wave2_findMin_singleNode_returnsRoot(BinarySearchTreeTest.java:102)
+
+wave2_findMax_returnsLargestValue(com.example.BinarySearchTreeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<14> but was:<-1>
+	at com.example.BinarySearchTreeTest.wave2_findMax_returnsLargestValue(BinarySearchTreeTest.java:116)
+
+wave2_findMin_returnsSmallestValue(com.example.BinarySearchTreeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<-1>
+	at com.example.BinarySearchTreeTest.wave2_findMin_returnsSmallestValue(BinarySearchTreeTest.java:96)
+
+wave4_isBalanced_emptyTree_returnsTrue(com.example.BinarySearchTreeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.BinarySearchTreeTest.wave4_isBalanced_emptyTree_returnsTrue(BinarySearchTreeTest.java:301)
+
+wave2_height_balancedTree_returnsCorrectHeight(com.example.BinarySearchTreeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at com.example.BinarySearchTreeTest.wave2_height_balancedTree_returnsCorrectHeight(BinarySearchTreeTest.java:149)
+
+wave3_preorder_rootFirstThenLeftThenRight(com.example.BinarySearchTreeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[4, 2, 1, 3, 6]> but was:<[]>
+	at com.example.BinarySearchTreeTest.wave3_preorder_rootFirstThenLeftThenRight(BinarySearchTreeTest.java:196)
+
+wave2_height_skewedTree_returnsCorrectHeight(com.example.BinarySearchTreeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<0>
+	at com.example.BinarySearchTreeTest.wave2_height_skewedTree_returnsCorrectHeight(BinarySearchTreeTest.java:158)
+
+wave1_insert_largerValueGoesRight(com.example.BinarySearchTreeTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot read field "data" because "com.example.BinarySearchTree.getRoot().right" is null
+	at com.example.BinarySearchTreeTest.wave1_insert_largerValueGoesRight(BinarySearchTreeTest.java:52)
+
+wave3_inorder_producesSortedOrder(com.example.BinarySearchTreeTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[1, 2, 3, 4, 6]> but was:<[]>
+	at com.example.BinarySearchTreeTest.wave3_inorder_producesSortedOrder(BinarySearchTreeTest.java:184)
+

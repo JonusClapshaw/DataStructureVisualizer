@@ -1,0 +1,97 @@
+-------------------------------------------------------------------------------
+Test set: com.example.GraphTest
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 5, Errors: 17, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! - in com.example.GraphTest
+wave2_removeEdge_nonExistentEdge_doesNothing(com.example.GraphTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist
+	at com.example.GraphTest.wave2_removeEdge_nonExistentEdge_doesNothing(GraphTest.java:134)
+
+wave4_shortestPath_sameStartAndEnd(com.example.GraphTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[1]> but was:<[]>
+	at com.example.GraphTest.wave4_shortestPath_sameStartAndEnd(GraphTest.java:305)
+
+wave1_addEdge_duplicateEdge_notAddedTwice(com.example.GraphTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.wave1_addEdge_duplicateEdge_notAddedTwice(GraphTest.java:60)
+
+wave2_hasEdge_existingEdge_returnsTrue(com.example.GraphTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.wave2_hasEdge_existingEdge_returnsTrue(GraphTest.java:90)
+
+wave4_shortestPath_longerPath(com.example.GraphTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.wave4_shortestPath_longerPath(GraphTest.java:286)
+
+wave1_addVertex_newVertex_appearsInAdjList(com.example.GraphTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.GraphTest.wave1_addVertex_newVertex_appearsInAdjList(GraphTest.java:37)
+
+wave3_bfs_visitsAllReachableVertices(com.example.GraphTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.buildTraversalGraph(GraphTest.java:151)
+	at com.example.GraphTest.wave3_bfs_visitsAllReachableVertices(GraphTest.java:158)
+
+wave3_dfs_visitsAllReachableVertices(com.example.GraphTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.buildTraversalGraph(GraphTest.java:151)
+	at com.example.GraphTest.wave3_dfs_visitsAllReachableVertices(GraphTest.java:190)
+
+wave1_addVertex_duplicate_doesNotAddTwice(com.example.GraphTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at com.example.GraphTest.wave1_addVertex_duplicate_doesNotAddTwice(GraphTest.java:44)
+
+wave4_shortestPath_directNeighbors(com.example.GraphTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.wave4_shortestPath_directNeighbors(GraphTest.java:274)
+
+wave3_bfs_neighborsVisitedBeforeTheirChildren(com.example.GraphTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.buildTraversalGraph(GraphTest.java:151)
+	at com.example.GraphTest.wave3_bfs_neighborsVisitedBeforeTheirChildren(GraphTest.java:173)
+
+wave3_bfs_firstElementIsStartVertex(com.example.GraphTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.buildTraversalGraph(GraphTest.java:151)
+	at com.example.GraphTest.wave3_bfs_firstElementIsStartVertex(GraphTest.java:166)
+
+wave4_connectedComponents_singleComponent(com.example.GraphTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.wave4_connectedComponents_singleComponent(GraphTest.java:245)
+
+wave1_hasVertex_existingVertex_returnsTrue(com.example.GraphTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.GraphTest.wave1_hasVertex_existingVertex_returnsTrue(GraphTest.java:74)
+
+wave4_connectedComponents_twoIsolatedComponents(com.example.GraphTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.wave4_connectedComponents_twoIsolatedComponents(GraphTest.java:257)
+
+wave4_connectedComponents_allIsolatedVertices(com.example.GraphTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<3> but was:<0>
+	at com.example.GraphTest.wave4_connectedComponents_allIsolatedVertices(GraphTest.java:267)
+
+wave2_removeEdge_removesFromBothSides(com.example.GraphTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.wave2_removeEdge_removesFromBothSides(GraphTest.java:124)
+
+wave4_hasCycle_treeGraph_noCycle_returnsFalse(com.example.GraphTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.wave4_hasCycle_treeGraph_noCycle_returnsFalse(GraphTest.java:230)
+
+wave1_addEdge_bothVerticesHaveEachOtherAsNeighbor(com.example.GraphTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.wave1_addEdge_bothVerticesHaveEachOtherAsNeighbor(GraphTest.java:51)
+
+wave3_dfs_firstElementIsStartVertex(com.example.GraphTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.buildTraversalGraph(GraphTest.java:151)
+	at com.example.GraphTest.wave3_dfs_firstElementIsStartVertex(GraphTest.java:198)
+
+wave2_getNeighbors_returnsCorrectNeighborList(com.example.GraphTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.wave2_getNeighbors_returnsCorrectNeighborList(GraphTest.java:107)
+
+wave4_hasCycle_graphWithCycle_returnsTrue(com.example.GraphTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Both vertices must exist before adding an edge
+	at com.example.GraphTest.wave4_hasCycle_graphWithCycle_returnsTrue(GraphTest.java:218)
+

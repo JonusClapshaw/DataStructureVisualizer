@@ -1,0 +1,3 @@
+cd demo
+mvn javafx:run
+

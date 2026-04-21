@@ -1,0 +1,99 @@
+-------------------------------------------------------------------------------
+Test set: com.example.SinglyLinkedListTest
+-------------------------------------------------------------------------------
+Tests run: 34, Failures: 20, Errors: 4, Skipped: 0, Time elapsed: 0.018 s <<< FAILURE! - in com.example.SinglyLinkedListTest
+wave2_addLast_onEmptyList_becomesOnlyElement(com.example.SinglyLinkedListTest)  Time elapsed: 0.007 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[99 -> ]null> but was:<[]null>
+	at com.example.SinglyLinkedListTest.wave2_addLast_onEmptyList_becomesOnlyElement(SinglyLinkedListTest.java:91)
+
+wave3_removeByValue_removesMiddleNode(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.SinglyLinkedListTest.wave3_removeByValue_removesMiddleNode(SinglyLinkedListTest.java:157)
+
+wave4_findMiddle_evenLengthList_returnsSecondMiddle(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: List is empty
+	at com.example.SinglyLinkedListTest.wave4_findMiddle_evenLengthList_returnsSecondMiddle(SinglyLinkedListTest.java:271)
+
+wave1_addFirst_singleElement_sizeIsOne(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at com.example.SinglyLinkedListTest.wave1_addFirst_singleElement_sizeIsOne(SinglyLinkedListTest.java:40)
+
+wave3_insertAt_insertsInMiddle(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1 -> 2 -> 3 -> ]null> but was:<[]null>
+	at com.example.SinglyLinkedListTest.wave3_insertAt_insertsInMiddle(SinglyLinkedListTest.java:208)
+
+wave4_hasCycle_cycleInMiddle_returnsTrue(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.SinglyLinkedListTest.wave4_hasCycle_cycleInMiddle_returnsTrue(SinglyLinkedListTest.java:303)
+
+wave3_insertAt_atTailIndex_behavesLikeAddLast(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1 -> 2 -> 3 -> ]null> but was:<[]null>
+	at com.example.SinglyLinkedListTest.wave3_insertAt_atTailIndex_behavesLikeAddLast(SinglyLinkedListTest.java:224)
+
+wave1_printList_singleElement_formattedCorrectly(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[42 -> ]null> but was:<[]null>
+	at com.example.SinglyLinkedListTest.wave1_printList_singleElement_formattedCorrectly(SinglyLinkedListTest.java:73)
+
+wave1_getSize_afterFiveAdds_returnsFive(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<5> but was:<0>
+	at com.example.SinglyLinkedListTest.wave1_getSize_afterFiveAdds_returnsFive(SinglyLinkedListTest.java:62)
+
+wave4_reverse_oddLengthList(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[3 -> 2 -> 1 -> ]null> but was:<[]null>
+	at com.example.SinglyLinkedListTest.wave4_reverse_oddLengthList(SinglyLinkedListTest.java:237)
+
+wave1_addFirst_threeElements_buildsInReverseOrder(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1 -> 2 -> 3 -> ]null> but was:<[]null>
+	at com.example.SinglyLinkedListTest.wave1_addFirst_threeElements_buildsInReverseOrder(SinglyLinkedListTest.java:49)
+
+wave3_getAt_returnsCorrectElementsAtEachIndex(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<10> but was:<-1>
+	at com.example.SinglyLinkedListTest.wave3_getAt_returnsCorrectElementsAtEachIndex(SinglyLinkedListTest.java:186)
+
+wave4_reverse_evenLengthList(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[4 -> 3 -> 2 -> 1 -> ]null> but was:<[]null>
+	at com.example.SinglyLinkedListTest.wave4_reverse_evenLengthList(SinglyLinkedListTest.java:247)
+
+wave2_contains_existingValue_returnsTrue(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.SinglyLinkedListTest.wave2_contains_existingValue_returnsTrue(SinglyLinkedListTest.java:124)
+
+wave2_removeFirst_untilEmpty_sizeDropsToZero(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: List is empty
+	at com.example.SinglyLinkedListTest.wave2_removeFirst_untilEmpty_sizeDropsToZero(SinglyLinkedListTest.java:109)
+
+wave4_findMiddle_oddLengthList_returnsCenterNode(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: List is empty
+	at com.example.SinglyLinkedListTest.wave4_findMiddle_oddLengthList_returnsCenterNode(SinglyLinkedListTest.java:262)
+
+wave3_removeByValue_removesHeadNode(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.SinglyLinkedListTest.wave3_removeByValue_removesHeadNode(SinglyLinkedListTest.java:148)
+
+wave2_addLast_appendsToEnd(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1 -> 2 -> 3 -> ]null> but was:<[]null>
+	at com.example.SinglyLinkedListTest.wave2_addLast_appendsToEnd(SinglyLinkedListTest.java:85)
+
+wave4_hasCycle_cycleAtHead_returnsTrue(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.SinglyLinkedListTest.wave4_hasCycle_cycleAtHead_returnsTrue(SinglyLinkedListTest.java:293)
+
+wave4_reverse_singleElement_noChange(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[42 -> ]null> but was:<[]null>
+	at com.example.SinglyLinkedListTest.wave4_reverse_singleElement_noChange(SinglyLinkedListTest.java:254)
+
+wave2_removeFirst_returnsHeadValueAndShortenslist(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: List is empty
+	at com.example.SinglyLinkedListTest.wave2_removeFirst_returnsHeadValueAndShortenslist(SinglyLinkedListTest.java:100)
+
+wave3_insertAt_atIndexZero_behavesLikeAddFirst(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1 -> 2 -> 3 -> ]null> but was:<[]null>
+	at com.example.SinglyLinkedListTest.wave3_insertAt_atIndexZero_behavesLikeAddFirst(SinglyLinkedListTest.java:216)
+
+wave3_removeByValue_removesTailNode(com.example.SinglyLinkedListTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.SinglyLinkedListTest.wave3_removeByValue_removesTailNode(SinglyLinkedListTest.java:166)
+
+wave3_getAt_indexTooLarge_throwsException(com.example.SinglyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.IndexOutOfBoundsException
+

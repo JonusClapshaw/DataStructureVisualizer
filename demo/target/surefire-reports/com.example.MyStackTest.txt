@@ -1,0 +1,87 @@
+-------------------------------------------------------------------------------
+Test set: com.example.MyStackTest
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 14, Errors: 7, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in com.example.MyStackTest
+wave4_reverseString_singleChar_unchanged(com.example.MyStackTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[a]> but was:<[]>
+	at com.example.MyStackTest.wave4_reverseString_singleChar_unchanged(MyStackTest.java:218)
+
+wave3_contains_existingValue_returnsTrue(com.example.MyStackTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.MyStackTest.wave3_contains_existingValue_returnsTrue(MyStackTest.java:150)
+
+wave3_clear_removesAllElements(com.example.MyStackTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.MyStackTest.wave3_clear_removesAllElements(MyStackTest.java:187)
+
+wave4_evaluatePostfix_simpleAddition(com.example.MyStackTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<7> but was:<0>
+	at com.example.MyStackTest.wave4_evaluatePostfix_simpleAddition(MyStackTest.java:224)
+
+wave4_evaluatePostfix_singleNumber(com.example.MyStackTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<42> but was:<0>
+	at com.example.MyStackTest.wave4_evaluatePostfix_singleNumber(MyStackTest.java:242)
+
+wave1_push_singleElement_peekReturnsIt(com.example.MyStackTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: Stack is empty
+	at com.example.MyStackTest.wave1_push_singleElement_peekReturnsIt(MyStackTest.java:46)
+
+wave2_isFull_whenAtCapacity_returnsTrue(com.example.MyStackTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.MyStackTest.wave2_isFull_whenAtCapacity_returnsTrue(MyStackTest.java:138)
+
+wave1_peek_doesNotRemoveElement(com.example.MyStackTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: Stack is empty
+	at com.example.MyStackTest.wave1_peek_doesNotRemoveElement(MyStackTest.java:60)
+
+wave4_reverseString_palindrome_unchanged(com.example.MyStackTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[racecar]> but was:<[]>
+	at com.example.MyStackTest.wave4_reverseString_palindrome_unchanged(MyStackTest.java:212)
+
+wave2_size_afterThreePushes_returnsThree(com.example.MyStackTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<3> but was:<0>
+	at com.example.MyStackTest.wave2_size_afterThreePushes_returnsThree(MyStackTest.java:115)
+
+wave3_toArray_returnsElementsBottomToTop(com.example.MyStackTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: array lengths differed, expected.length=3 actual.length=0
+	at com.example.MyStackTest.wave3_toArray_returnsElementsBottomToTop(MyStackTest.java:171)
+
+wave4_evaluatePostfix_multiplication(com.example.MyStackTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<14> but was:<0>
+	at com.example.MyStackTest.wave4_evaluatePostfix_multiplication(MyStackTest.java:230)
+
+wave1_push_beyondCapacity_throwsException(com.example.MyStackTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.IllegalStateException
+
+wave4_reverseString_multiCharString(com.example.MyStackTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[olleh]> but was:<[]>
+	at com.example.MyStackTest.wave4_reverseString_multiCharString(MyStackTest.java:206)
+
+wave3_clear_thenPush_worksFine(com.example.MyStackTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: Stack is empty
+	at com.example.MyStackTest.wave3_clear_thenPush_worksFine(MyStackTest.java:195)
+
+wave1_isEmpty_newStack_returnsTrue(com.example.MyStackTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.MyStackTest.wave1_isEmpty_newStack_returnsTrue(MyStackTest.java:34)
+
+wave1_push_threeElements_peekReturnsLast(com.example.MyStackTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: Stack is empty
+	at com.example.MyStackTest.wave1_push_threeElements_peekReturnsLast(MyStackTest.java:54)
+
+wave2_pop_untilEmpty_sizeDropsToZero(com.example.MyStackTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: Stack is empty
+	at com.example.MyStackTest.wave2_pop_untilEmpty_sizeDropsToZero(MyStackTest.java:94)
+
+wave4_evaluatePostfix_complexExpression(com.example.MyStackTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<14> but was:<0>
+	at com.example.MyStackTest.wave4_evaluatePostfix_complexExpression(MyStackTest.java:236)
+
+wave2_pop_returnsTopAndRemovesIt(com.example.MyStackTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: Stack is empty
+	at com.example.MyStackTest.wave2_pop_returnsTopAndRemovesIt(MyStackTest.java:86)
+
+wave2_size_decreasesAfterPop(com.example.MyStackTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: Stack is empty
+	at com.example.MyStackTest.wave2_size_decreasesAfterPop(MyStackTest.java:122)
+

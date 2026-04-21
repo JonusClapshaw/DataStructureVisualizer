@@ -1,0 +1,108 @@
+-------------------------------------------------------------------------------
+Test set: com.example.DoublyLinkedListTest
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 19, Errors: 7, Skipped: 0, Time elapsed: 0.02 s <<< FAILURE! - in com.example.DoublyLinkedListTest
+wave3_removeByValue_removesMiddle(com.example.DoublyLinkedListTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.DoublyLinkedListTest.wave3_removeByValue_removesMiddle(DoublyLinkedListTest.java:189)
+
+wave4_sortAscending_singleElement_unchanged(com.example.DoublyLinkedListTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[5]> but was:<[]>
+	at com.example.DoublyLinkedListTest.wave4_sortAscending_singleElement_unchanged(DoublyLinkedListTest.java:294)
+
+wave1_addFirst_setsHeadAndTailOnEmptyList(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.DoublyLinkedListTest.wave1_addFirst_setsHeadAndTailOnEmptyList(DoublyLinkedListTest.java:41)
+
+wave2_removeLast_returnsValueAndUpdatesTail(com.example.DoublyLinkedListTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.util.NoSuchElementException: List is empty
+	at com.example.DoublyLinkedListTest.wave2_removeLast_returnsValueAndUpdatesTail(DoublyLinkedListTest.java:143)
+
+wave1_addFirst_singleElement_sizeIsOne(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at com.example.DoublyLinkedListTest.wave1_addFirst_singleElement_sizeIsOne(DoublyLinkedListTest.java:35)
+
+wave1_printForward_multipleElements(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1 <-> 2 <-> 3]> but was:<[]>
+	at com.example.DoublyLinkedListTest.wave1_printForward_multipleElements(DoublyLinkedListTest.java:84)
+
+wave3_insertAt_insertsAtMiddle(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1 <-> 2 <-> 3]> but was:<[]>
+	at com.example.DoublyLinkedListTest.wave3_insertAt_insertsAtMiddle(DoublyLinkedListTest.java:204)
+
+wave2_removeFirst_returnsValueAndUpdatesHead(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: List is empty
+	at com.example.DoublyLinkedListTest.wave2_removeFirst_returnsValueAndUpdatesHead(DoublyLinkedListTest.java:119)
+
+wave1_getSize_afterMultipleAdds(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<3> but was:<0>
+	at com.example.DoublyLinkedListTest.wave1_getSize_afterMultipleAdds(DoublyLinkedListTest.java:65)
+
+wave1_addFirst_threeElements_headPointsToFirst(com.example.DoublyLinkedListTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot read field "data" because the return value of "com.example.DoublyLinkedList.getHead()" is null
+	at com.example.DoublyLinkedListTest.wave1_addFirst_threeElements_headPointsToFirst(DoublyLinkedListTest.java:51)
+
+wave2_removeFirst_singleElement_listBecomesEmpty(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: List is empty
+	at com.example.DoublyLinkedListTest.wave2_removeFirst_singleElement_listBecomesEmpty(DoublyLinkedListTest.java:128)
+
+wave1_printForward_singleElement(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[7]> but was:<[]>
+	at com.example.DoublyLinkedListTest.wave1_printForward_singleElement(DoublyLinkedListTest.java:76)
+
+wave4_reverse_prevPointersCorrectAfterReversal(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1 <-> 2 <-> 3]> but was:<[]>
+	at com.example.DoublyLinkedListTest.wave4_reverse_prevPointersCorrectAfterReversal(DoublyLinkedListTest.java:268)
+
+wave2_addLast_onEmptyList_setsHeadAndTail(com.example.DoublyLinkedListTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot read field "data" because the return value of "com.example.DoublyLinkedList.getHead()" is null
+	at com.example.DoublyLinkedListTest.wave2_addLast_onEmptyList_setsHeadAndTail(DoublyLinkedListTest.java:103)
+
+wave2_addLast_tailPrevPointsToNewSecondToLast(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot read field "prev" because the return value of "com.example.DoublyLinkedList.getTail()" is null
+	at com.example.DoublyLinkedListTest.wave2_addLast_tailPrevPointsToNewSecondToLast(DoublyLinkedListTest.java:110)
+
+wave3_printBackward_singleElement(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[42]> but was:<[]>
+	at com.example.DoublyLinkedListTest.wave3_printBackward_singleElement(DoublyLinkedListTest.java:231)
+
+wave2_removeLast_singleElement_listBecomesEmpty(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: List is empty
+	at com.example.DoublyLinkedListTest.wave2_removeLast_singleElement_listBecomesEmpty(DoublyLinkedListTest.java:152)
+
+wave3_removeByValue_removesHead(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.DoublyLinkedListTest.wave3_removeByValue_removesHead(DoublyLinkedListTest.java:171)
+
+wave3_removeByValue_removesTail(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.DoublyLinkedListTest.wave3_removeByValue_removesTail(DoublyLinkedListTest.java:180)
+
+wave4_sortAscending_unsortedList_sortedCorrectly(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1 <-> 2 <-> 3 <-> 4]> but was:<[]>
+	at com.example.DoublyLinkedListTest.wave4_sortAscending_unsortedList_sortedCorrectly(DoublyLinkedListTest.java:278)
+
+wave2_addLast_appendsToEnd(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1 <-> 2 <-> 3]> but was:<[]>
+	at com.example.DoublyLinkedListTest.wave2_addLast_appendsToEnd(DoublyLinkedListTest.java:96)
+
+wave4_reverse_singleElement_noChange(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[7]> but was:<[]>
+	at com.example.DoublyLinkedListTest.wave4_reverse_singleElement_noChange(DoublyLinkedListTest.java:258)
+
+wave3_printBackward_multipleElements(com.example.DoublyLinkedListTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[3 <-> 2 <-> 1]> but was:<[]>
+	at com.example.DoublyLinkedListTest.wave3_printBackward_multipleElements(DoublyLinkedListTest.java:225)
+
+wave3_insertAt_atIndexZero_behavesLikeAddFirst(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1 <-> 2 <-> 3]> but was:<[]>
+	at com.example.DoublyLinkedListTest.wave3_insertAt_atIndexZero_behavesLikeAddFirst(DoublyLinkedListTest.java:212)
+
+wave4_sortAscending_alreadySorted_unchanged(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1 <-> 2 <-> 3]> but was:<[]>
+	at com.example.DoublyLinkedListTest.wave4_sortAscending_alreadySorted_unchanged(DoublyLinkedListTest.java:287)
+
+wave4_reverse_threeElementList(com.example.DoublyLinkedListTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[3 <-> 2 <-> 1]> but was:<[]>
+	at com.example.DoublyLinkedListTest.wave4_reverse_threeElementList(DoublyLinkedListTest.java:249)
+

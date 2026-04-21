@@ -1,0 +1,75 @@
+-------------------------------------------------------------------------------
+Test set: com.example.MyQueueTest
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 10, Errors: 8, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! - in com.example.MyQueueTest
+wave2_size_afterEnqueueAndDequeue(com.example.MyQueueTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: expected:<3> but was:<0>
+	at com.example.MyQueueTest.wave2_size_afterEnqueueAndDequeue(MyQueueTest.java:114)
+
+wave3_contains_existingValue_returnsTrue(com.example.MyQueueTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.MyQueueTest.wave3_contains_existingValue_returnsTrue(MyQueueTest.java:128)
+
+wave3_clear_removesAllElements(com.example.MyQueueTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.MyQueueTest.wave3_clear_removesAllElements(MyQueueTest.java:150)
+
+wave1_peek_doesNotRemoveElement(com.example.MyQueueTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: Queue is empty
+	at com.example.MyQueueTest.wave1_peek_doesNotRemoveElement(MyQueueTest.java:60)
+
+wave2_dequeue_removesFromFront(com.example.MyQueueTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: Queue is empty
+	at com.example.MyQueueTest.wave2_dequeue_removesFromFront(MyQueueTest.java:86)
+
+wave1_enqueue_threeElements_peekReturnsFIFOFront(com.example.MyQueueTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.util.NoSuchElementException: Queue is empty
+	at com.example.MyQueueTest.wave1_enqueue_threeElements_peekReturnsFIFOFront(MyQueueTest.java:54)
+
+wave2_dequeue_returnsFrontValue(com.example.MyQueueTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: Queue is empty
+	at com.example.MyQueueTest.wave2_dequeue_returnsFrontValue(MyQueueTest.java:78)
+
+wave4_reverseQueue_threeElements(com.example.MyQueueTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: array lengths differed, expected.length=3 actual.length=0
+	at com.example.MyQueueTest.wave4_reverseQueue_threeElements(MyQueueTest.java:184)
+
+wave1_isEmpty_newQueue_returnsTrue(com.example.MyQueueTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.MyQueueTest.wave1_isEmpty_newQueue_returnsTrue(MyQueueTest.java:34)
+
+wave1_enqueue_singleElement_peekReturnsIt(com.example.MyQueueTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: Queue is empty
+	at com.example.MyQueueTest.wave1_enqueue_singleElement_peekReturnsIt(MyQueueTest.java:46)
+
+wave4_reverseQueue_singleElement_unchanged(com.example.MyQueueTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: Queue is empty
+	at com.example.MyQueueTest.wave4_reverseQueue_singleElement_unchanged(MyQueueTest.java:191)
+
+wave4_interleave_twoElements(com.example.MyQueueTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: array lengths differed, expected.length=2 actual.length=0
+	at com.example.MyQueueTest.wave4_interleave_twoElements(MyQueueTest.java:222)
+
+wave4_reverseQueue_thenReverseAgain_restoredToOriginal(com.example.MyQueueTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: array lengths differed, expected.length=3 actual.length=0
+	at com.example.MyQueueTest.wave4_reverseQueue_thenReverseAgain_restoredToOriginal(MyQueueTest.java:202)
+
+wave4_interleave_sixElements(com.example.MyQueueTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: array lengths differed, expected.length=6 actual.length=0
+	at com.example.MyQueueTest.wave4_interleave_sixElements(MyQueueTest.java:214)
+
+wave3_clear_thenEnqueue_worksFine(com.example.MyQueueTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: Queue is empty
+	at com.example.MyQueueTest.wave3_clear_thenEnqueue_worksFine(MyQueueTest.java:158)
+
+wave4_interleave_oddNumberOfElements_throwsException(com.example.MyQueueTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.IllegalStateException
+
+wave2_dequeue_untilEmpty_isEmptyReturnsTrue(com.example.MyQueueTest)  Time elapsed: 0 s  <<< ERROR!
+java.util.NoSuchElementException: Queue is empty
+	at com.example.MyQueueTest.wave2_dequeue_untilEmpty_isEmptyReturnsTrue(MyQueueTest.java:94)
+
+wave3_toArray_returnsElementsFrontToBack(com.example.MyQueueTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: array lengths differed, expected.length=3 actual.length=0
+	at com.example.MyQueueTest.wave3_toArray_returnsElementsFrontToBack(MyQueueTest.java:166)
+

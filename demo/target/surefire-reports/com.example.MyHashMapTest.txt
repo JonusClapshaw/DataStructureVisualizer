@@ -1,0 +1,80 @@
+-------------------------------------------------------------------------------
+Test set: com.example.MyHashMapTest
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 19, Errors: 0, Skipped: 0, Time elapsed: 0.018 s <<< FAILURE! - in com.example.MyHashMapTest
+wave1_containsKey_existingKey_returnsTrue(com.example.MyHashMapTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.MyHashMapTest.wave1_containsKey_existingKey_returnsTrue(MyHashMapTest.java:69)
+
+wave3_keys_returnsAllKeys(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<3> but was:<0>
+	at com.example.MyHashMapTest.wave3_keys_returnsAllKeys(MyHashMapTest.java:165)
+
+wave3_clear_removesAllMappings(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.MyHashMapTest.wave3_clear_removesAllMappings(MyHashMapTest.java:199)
+
+wave2_size_afterPuts_returnsCorrectCount(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<3> but was:<0>
+	at com.example.MyHashMapTest.wave2_size_afterPuts_returnsCorrectCount(MyHashMapTest.java:119)
+
+wave2_isEmpty_newMap_returnsTrue(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.MyHashMapTest.wave2_isEmpty_newMap_returnsTrue(MyHashMapTest.java:139)
+
+wave2_size_decreasesAfterRemove(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at com.example.MyHashMapTest.wave2_size_decreasesAfterRemove(MyHashMapTest.java:134)
+
+wave4_getOrDefault_existingKey_returnsActualValue(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[hello]> but was:<[default]>
+	at com.example.MyHashMapTest.wave4_getOrDefault_existingKey_returnsActualValue(MyHashMapTest.java:220)
+
+wave1_put_updateExistingKey_valueIsOverwritten(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<banana> but was:<null>
+	at com.example.MyHashMapTest.wave1_put_updateExistingKey_valueIsOverwritten(MyHashMapTest.java:43)
+
+wave1_put_collisionKeys_bothRetrievable(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<one> but was:<null>
+	at com.example.MyHashMapTest.wave1_put_collisionKeys_bothRetrievable(MyHashMapTest.java:51)
+
+wave3_values_returnsAllValues(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<3> but was:<0>
+	at com.example.MyHashMapTest.wave3_values_returnsAllValues(MyHashMapTest.java:182)
+
+wave4_putIfAbsent_doesNotChangeSizeWhenKeyExists(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at com.example.MyHashMapTest.wave4_putIfAbsent_doesNotChangeSizeWhenKeyExists(MyHashMapTest.java:247)
+
+wave2_size_updateDoesNotIncreaseSize(com.example.MyHashMapTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at com.example.MyHashMapTest.wave2_size_updateDoesNotIncreaseSize(MyHashMapTest.java:126)
+
+wave4_putIfAbsent_existingKey_doesNotOverwriteAndReturnsExistingValue(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<original> but was:<null>
+	at com.example.MyHashMapTest.wave4_putIfAbsent_existingKey_doesNotOverwriteAndReturnsExistingValue(MyHashMapTest.java:239)
+
+wave1_put_singleEntry_getReturnsValue(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<apple> but was:<null>
+	at com.example.MyHashMapTest.wave1_put_singleEntry_getReturnsValue(MyHashMapTest.java:36)
+
+wave2_isEmpty_afterRemoveLastEntry_returnsTrue(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.MyHashMapTest.wave2_isEmpty_afterRemoveLastEntry_returnsTrue(MyHashMapTest.java:152)
+
+wave3_clear_thenPut_worksFine(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<b> but was:<null>
+	at com.example.MyHashMapTest.wave3_clear_thenPut_worksFine(MyHashMapTest.java:209)
+
+wave4_putIfAbsent_newKey_insertsAndReturnsNull(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<first> but was:<null>
+	at com.example.MyHashMapTest.wave4_putIfAbsent_newKey_insertsAndReturnsNull(MyHashMapTest.java:232)
+
+wave2_remove_headOfChain_nextEntryStillReachable(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<seventeen> but was:<null>
+	at com.example.MyHashMapTest.wave2_remove_headOfChain_nextEntryStillReachable(MyHashMapTest.java:106)
+
+wave2_remove_existingKey_returnsValueAndRemovesIt(com.example.MyHashMapTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<one> but was:<null>
+	at com.example.MyHashMapTest.wave2_remove_existingKey_returnsValueAndRemovesIt(MyHashMapTest.java:91)
+
